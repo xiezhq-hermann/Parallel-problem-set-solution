@@ -20,8 +20,9 @@
 - $n = 256 - (400*900)\%256 = 192$ threads will be idle, which may suggest the small block is better?
 
 
-
 ### Problem 3
+
+As for $p = 2,4,8...$ :
 
 ```c
 __global__
